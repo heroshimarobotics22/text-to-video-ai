@@ -28,7 +28,7 @@ jobs:
         run: python app.py "Top 5 New AI Tools This Week"
 
       - name: Upload video as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: generated-video
           path: "*.mp4"
